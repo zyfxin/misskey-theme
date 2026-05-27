@@ -3,6 +3,7 @@ import {
   CheckIcon,
   Code2Icon,
   CopyIcon,
+  ExternalLinkIcon,
   MoonIcon,
   PaletteIcon,
   SearchIcon,
@@ -161,6 +162,20 @@ export function App() {
                   黑白极简、黑金、浅色纸感、霓虹终端与更多风格。选中主题后复制完整
                   Misskey 主题 JSON。
                 </p>
+                <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                  <a
+                    href="https://dc.hhhl.cc"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex h-8 items-center gap-1.5 rounded-[8px] border bg-card/70 px-3 font-medium text-foreground transition-colors hover:border-primary/70 hover:text-primary"
+                  >
+                    hhhl社区
+                    <ExternalLinkIcon className="size-3.5" aria-hidden="true" />
+                  </a>
+                  <span className="inline-flex h-8 items-center rounded-[8px] border bg-card/50 px-3 font-mono">
+                    @LF@dc.hhhl.cc
+                  </span>
+                </div>
               </div>
             </div>
 

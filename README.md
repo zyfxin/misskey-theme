@@ -10,6 +10,12 @@
 - 深色 / 浅色筛选
 - GitHub Pages 自动部署
 
+## Contact
+
+- QQ: 466656664
+- hhhl社区: https://dc.hhhl.cc
+- 社区 ID: @LF@dc.hhhl.cc
+
 ## Development
 
 ```bash
